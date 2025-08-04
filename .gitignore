@@ -1,0 +1,25 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Crash logs
+crash.log
+
+# Sensitive variable files (if used)
+*.tfvars
+*.tfvars.json
+
+# Shell history or setup logs
+*.log
+
+# Editor and OS files
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.bak
+
+# SSH keys (do NOT commit private keys)
+*.pem
+*.key
