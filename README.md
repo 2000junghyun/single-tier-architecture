@@ -31,7 +31,6 @@ This project provisions a single-tier architecture on AWS using Terraform, deplo
 ```
 
 ## How to Use
-
 ```bash
 $ terraform init
 $ terraform plan
@@ -42,6 +41,12 @@ $ terraform apply
 - After apply, access the instance via the public IP
 - No user input is required during provisioning.
 - EC2 instance setup is fully automated via `setup.sh`.
+
+## Dispose
+Remove all sturctures created with terraform
+```bash
+$ terraform destroy
+```
 
 ## Features / Main Logic
 
