@@ -43,7 +43,7 @@ $ terraform apply
 - EC2 instance setup is fully automated via `setup.sh`.
 
 ## Dispose
-Remove all sturctures created with terraform
+Remove all resources created with terraform
 ```bash
 $ terraform destroy
 ```
